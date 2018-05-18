@@ -86,6 +86,8 @@ chmod +x serviceTest.sh
 ```
 systemctl enable serviceTest.service
 ```
+### Output should look like this
+**Created symlink from /etc/systemd/system/multi-user.target.wants/serviceTest.service to /etc/systemd/system/serviceTest.service.**
 
 ### Start service
 ```
