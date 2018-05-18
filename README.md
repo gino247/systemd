@@ -5,7 +5,7 @@ Rules:
 * If systemd no see process it will shut it down. **RemainAfterExit=true**
 * If installation is not creating service symbolic links, you forgot **WantedBy = multi-user.target**, under \[Install\] unit
 
-Every thing as **root**
+Everything as **root**
 
 ### Create /etc/systemd/system/serviceTest.sh
 ```
