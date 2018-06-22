@@ -7,7 +7,7 @@ Rules:
 
 Everything as **root**
 
-### Create /etc/systemd/system/serviceTest
+### Create /etc/systemd/system/serviceTest.service
 ```
 [Unit]
 Description = service test daemon
