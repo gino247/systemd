@@ -106,5 +106,5 @@ systemctl deamon-reload
 
 ### Check what the service did
 ```
-journal -xe
+journalctl -xe
 ```
